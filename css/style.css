@@ -478,9 +478,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
-#about .about-container {
+/* #about .about-container {
   background: url(../img/liz-rondone.jpg) left top no-repeat;
-}
+} */
 
 #about .about-content {
   background: #fff;
