@@ -991,3 +991,7 @@ img.hover-shadow {
   font-size: 13px;
   color: #ccc;
 }
+
+.gray-txt { color: #333333; }
+.marg-5 {margin: 0 15px;}
+.txt-cntr {text-align: center;}
