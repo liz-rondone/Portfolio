@@ -314,6 +314,7 @@
 
 
   <!-- SLIDESHOW -->
+  <div class="container">
   <section class="row">
 
     <div class="hidden" id="img-repo">
@@ -378,10 +379,12 @@
                 
             </div>
           </div>
+
         </div>
       </div>
     </div>
   </section>
+  </div>
       
 <!--==========================
   Testimonials Section
@@ -501,6 +504,7 @@
 
       /* change modal title when slide changes */
       $("#modal-carousel").on("slid.bs.carousel", function () {
+        console.log("hey");
         $(".modal-title")
         .html($(this)
         .find(".active img")
