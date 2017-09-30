@@ -1,2 +1,2 @@
 # Portfolio
-Get to know Liz Rondone and learn about her capabilities by viewing her designs.
+Get to know Liz Rondone and discover her capabilities by viewing her designs.
