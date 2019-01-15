@@ -474,7 +474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-/* Get Started Section
+/* About
 --------------------------------*/
 #about {
   background: #fff;
@@ -501,6 +501,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-text:last-child {
   margin-bottom: 0;
+}
+
+.about-image {
+  padding: 0 20px 20px 0;
+  float:left;
+  width: 50%;
 }
 
 /* Services Section
@@ -557,6 +563,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+.gray-link {
+  color: #666666;
+}
+
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
@@ -607,13 +617,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 80px 0;
 }
 
+#portfolio .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+  margin:20px 0;
+}
+
 #portfolio .portfolio-item {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   height: 260px;
-  width: 100%;
+  width: 260px;
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
@@ -652,7 +669,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item:hover .details {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #portfolio .portfolio-item:hover .details h4 {
@@ -665,6 +682,80 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
+
+
+/* photography section */
+#portfolio-photo {
+  background: #fff;
+}
+
+/* default */
+#portfolio-photo .portfolio-item-photo {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* hover */
+#portfolio-photo .portfolio-item-photo .details-photo {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+  width: 100%;
+}
+
+#portfolio-photo .portfolio-item-photo .details-photo h4 {
+  font-size: 16px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #333333;
+}
+
+#portfolio-photo .portfolio-item-photo .details-photo-photo span {
+  display: block;
+  color: #666666;
+  font-size: 13px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0);
+}
+
+#portfolio-photo .portfolio-item-photo:hover .details-photo {
+  opacity: 0.9;
+}
+
+#portfolio-photo .portfolio-item-photo:hover .details-photo h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#portfolio-photo .portfolio-item-photo:hover .details-photo span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+
+
 /* Slideshow Section
 --------------------------------*/
 /* body */
@@ -673,13 +764,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .btn-default {
-    top: 25%;
-    left:25%; 
-    color: #999; 
-    background: #fffccc; 
+  top: 25%;
+  left:25%; 
+  color: #999; 
+  background: #fffccc; 
 } 
 
-/* Testimonials Section
+.modal-title {
+  color:#666666;
+  line-height:1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size:19px;
+}
+
+.award-gold {
+  font-size: 15px;
+  color:#dca735;
+}
+
+.award-silver {
+  font-size: 15px;
+  color:#868686;
+}
+
+.award-bronze {
+  font-size: 15px;
+  color:#97461a;
+}
+
+/* Quote Section
 --------------------------------*/
 #testimonials {
   background: #f6f6f6;
@@ -887,3 +1002,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 .gray-txt { color: #333333; }
 .marg-5 {margin: 0 15px;}
 .txt-cntr {text-align: center;}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+  .ms-profile-img {width:100%;}
+  .ms-marg-cntr {margin:0 auto;}
+  .ms-font-sm16 {font-size: 14px;}
+  .ms-font-sm12 {font-size: 12px;}
+  .ms-w260 {width:260px !important; margin: 0 auto;}
+}
