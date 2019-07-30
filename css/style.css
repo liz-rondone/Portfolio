@@ -853,9 +853,19 @@ a:hover {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
   display: block;
   font-size: 1.4rem;
+}
+
+.testimonial-box .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 .testimonial-box .comit {
@@ -869,6 +879,7 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
+
 
 /*======================================
 //--//-->   BLOG
@@ -1096,7 +1107,7 @@ footer .credits a {
 }
 
 /*======================================
-//--//-->   CONtaCT FORM
+//--//-->   CONTACT FORM
 ======================================*/
 
 #sendmessage {
