@@ -828,21 +828,19 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.carousel-control.prev{
-  margin-left: -25px;
-}
-
-.carousel-control.next{
-  /* bottom: 100%; */
-  margin-right: -25px;
+#carousel1 {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  margin-left: -150px;
 }
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  margin-right: -150px;
 }
 
 /*======================================
@@ -1310,6 +1308,18 @@ footer .credits a {
   }
 }
 
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .mm-control-prev {
+    margin-left: 25px;
+  }
+  .mm-control-next {
+    margin-right: 25px;
+  }
+}
+
+
+/* Phone */
 @media (max-width: 640px) {
   .back-to-top {
     bottom: 15px;
@@ -1320,4 +1330,15 @@ footer .credits a {
   .ms-max-width95 {
     max-width: 95%;
   }
+  .ms-control-prev {
+    margin-left: 35px;
+  }
+  .ms-control-next {
+    margin-right: 35px;
+  }
+  .ms-carousel {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
 }
